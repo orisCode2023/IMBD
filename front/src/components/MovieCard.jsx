@@ -1,6 +1,13 @@
-function MovieCard() {
+function MovieCard({img, title, year, runtime, genre, language}) {
   return (
-    <div>MovieCard</div>
+    <div>
+        <img src={img} alt="" />
+        {title}
+        {year}
+        {runtime}
+        {genre}
+        {language}
+    </div>
   )
 }
 
